@@ -10,6 +10,11 @@ class circle{
     public double area(){
         return Math.PI*this.radius*this.radius;
     }
+    public void setRadius(double d) {
+    }
+    public double getRadius() {
+        return null;
+    }
 }
 class cylinder extends circle{
     public int height;
@@ -20,6 +25,11 @@ class cylinder extends circle{
     }
     public double volume(){
         return Math.PI*this.radius*this.radius*this.height;
+    }
+    public void setHeight(double d) {
+    }
+    public char[] getHeight() {
+        return null;
     }
 }
 public class day4 {
